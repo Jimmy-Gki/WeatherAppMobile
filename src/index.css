@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  background-image: url('./assets/Sunrise.jpg');
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.5s ease;
+}
+
+.container_sunset {
+  background-image: url('./assets/Sunset.jpg');
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+  padding: 25px;
+}
+
+.undefined {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  padding: 50px 0;
+  text-shadow: 3px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.search_box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search_box .search_bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s ease;
+}
+
+.search_box .search_bar:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.location_box .location{
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.location_box .date {
+  text-align: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+  padding-top: 20px;
+}
+
+.weather_box {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.weather_box .temp {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  margin: auto;
+  padding: 20px 50px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 5px black;
+}
+
+.weather_box .weather {
+  padding-top: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
+
+.weather_box .wind {
+  color: rgba(255, 255, 255, 1);
+  padding-top: 40px;
+  font-size: 26px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
